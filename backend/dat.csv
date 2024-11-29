@@ -1,0 +1,451 @@
+Disease,Symptoms
+Influenza,"['Fever', 'Cough', 'Fatigue', 'Body aches', 'Headache', 'Sore throat', 'Runny nose', 'Chills', 'Nausea', 'Loss of appetite']"
+
+Pneumonia,"['Cough', 'Chest pain', 'Fever', 'Shortness of breath', 'Fatigue', 'Nausea', 'Confusion', 'Rapid breathing', 'Chills', 'Sweating']"
+
+Diabetes Type 2,"['Increased thirst', 'Frequent urination', 'Blurred vision', 'Slow-healing wounds', 'Fatigue', 'Unexplained weight loss', 'Increased hunger', 'Numbness in extremities', 'Dry skin', 'Recurrent infections']"
+
+Hypertension,"['Headache', 'Shortness of breath', 'Nosebleeds', 'Chest pain', 'Dizziness', 'Vision problems', 'Fatigue', 'Irregular heartbeat', 'Flushing', 'Anxiety']"
+
+Asthma,"['Wheezing', 'Shortness of breath', 'Chest tightness', 'Coughing', 'Difficulty sleeping', 'Fatigue', 'Anxiety', 'Rapid breathing', 'Trouble speaking', 'Pale or blue skin color']"
+
+Alzheimer's Disease,"['Memory loss', 'Confusion', 'Difficulty with familiar tasks', 'Language problems', 'Disorientation', 'Mood swings', 'Poor judgment', 'Withdrawal from social activities', 'Behavioral changes', 'Difficulty with abstract thinking']"
+
+Osteoarthritis,"['Joint pain', 'Stiffness', 'Swelling', 'Reduced flexibility', 'Grinding sensation', 'Bone spurs', 'Weakness', 'Fatigue', 'Instability', 'Deformity']"
+
+Chronic Obstructive Pulmonary Disease,"['Shortness of breath', 'Chronic cough', 'Wheezing', 'Chest tightness', 'Fatigue', 'Recurrent respiratory infections', 'Blue lips or fingernails', 'Swelling in ankles or legs', 'Weight loss', 'Barrel chest']"
+
+Coronary Artery Disease,"['Chest pain', 'Shortness of breath', 'Heart palpitations', 'Weakness', 'Nausea', 'Sweating', 'Dizziness', 'Fatigue', 'Neck or jaw pain', 'Anxiety']"
+
+Rheumatoid Arthritis,"['Joint pain', 'Swelling', 'Stiffness', 'Fatigue', 'Fever', 'Loss of appetite', 'Weight loss', 'Weakness', 'Dry eyes and mouth', 'Firm lumps under the skin']"
+
+Parkinson's Disease,"['Tremor', 'Slow movement', 'Rigid muscles', 'Impaired posture and balance', 'Loss of automatic movements', 'Speech changes', 'Writing changes', 'Difficulty swallowing', 'Masked face', 'Sleep disorders']"
+
+Multiple Sclerosis,"['Fatigue', 'Vision problems', 'Numbness and tingling', 'Muscle weakness', 'Balance problems', 'Cognitive changes', 'Depression', 'Pain', 'Bladder dysfunction', 'Sexual dysfunction']"
+
+Celiac Disease,"['Diarrhea', 'Abdominal pain', 'Bloating', 'Fatigue', 'Weight loss', 'Anemia', 'Skin rash', 'Joint pain', 'Headaches', 'Mouth ulcers']"
+
+Crohn's Disease,"['Abdominal pain', 'Diarrhea', 'Fatigue', 'Weight loss', 'Reduced appetite', 'Fever', 'Anemia', 'Mouth sores', 'Eye inflammation', 'Skin problems']"
+
+Lupus,"['Fatigue', 'Joint pain', 'Skin rash', 'Fever', 'Hair loss', 'Sensitivity to sunlight', 'Chest pain', 'Dry eyes and mouth', 'Headaches', 'Memory problems']"
+
+Epilepsy,"['Seizures', 'Temporary confusion', 'Staring spells', 'Uncontrollable jerking movements', 'Loss of consciousness', 'Psychological symptoms', 'Altered senses', 'Deja vu', 'Fear or anxiety', 'Memory loss']"
+
+Fibromyalgia,"['Widespread pain', 'Fatigue', 'Cognitive difficulties', 'Sleep problems', 'Headaches', 'Depression', 'Anxiety', 'Digestive issues', 'Sensitivity to temperature', 'Stiffness']"
+
+Glaucoma,"['Gradual loss of peripheral vision', 'Eye pain', 'Blurred vision', 'Halos around lights', 'Redness of the eye', 'Nausea', 'Vomiting', 'Headache', 'Tunnel vision', 'Blind spots']"
+
+Hypothyroidism,"['Fatigue', 'Weight gain', 'Constipation', 'Dry skin', 'Hair loss', 'Depression', 'Joint or muscle pain', 'Increased sensitivity to cold', 'Irregular menstrual periods', 'Slowed heart rate']"
+
+Psoriasis,"['Red patches of skin', 'Silvery scales', 'Dry cracked skin', 'Itching', 'Burning sensation', 'Swollen joints', 'Thickened nails', 'Genital lesions', 'Eye problems', 'Joint stiffness']"
+
+Gastroesophageal Reflux Disease,"['Heartburn', 'Chest pain', 'Difficulty swallowing', 'Regurgitation', 'Feeling of lump in throat', 'Chronic cough', 'Hoarseness', 'Sore throat', 'Disrupted sleep', 'Bad breath']"
+
+Migraine,"['Severe headache', 'Nausea', 'Vomiting', 'Sensitivity to light', 'Sensitivity to sound', 'Visual disturbances', 'Tingling in extremities', 'Dizziness', 'Fatigue', 'Mood changes']"
+
+Osteoporosis,"['Back pain', 'Loss of height', 'Stooped posture', 'Easily fractured bones', 'Neck pain', 'Bone pain', 'Reduced mobility', 'Kyphosis', 'Loss of fitness', 'Depression']"
+
+Ulcerative Colitis,"['Abdominal pain', 'Diarrhea', 'Rectal bleeding', 'Urgency to defecate', 'Weight loss', 'Fatigue', 'Fever', 'Anemia', 'Joint pain', 'Skin lesions']"
+
+Attention Deficit Hyperactivity Disorder,"['Inattention', 'Hyperactivity', 'Impulsivity', 'Disorganization', 'Poor time management', 'Difficulty focusing', 'Forgetfulness', 'Restlessness', 'Mood swings', 'Low frustration tolerance']"
+
+Schizophrenia,"['Hallucinations', 'Delusions', 'Disorganized speech', 'Disorganized behavior', 'Lack of emotion', 'Reduced speaking', 'Loss of interest', 'Difficulty functioning', 'Social withdrawal', 'Cognitive difficulties']"
+
+Bipolar Disorder,"['Manic episodes', 'Depressive episodes', 'Mood swings', 'Changes in energy levels', 'Changes in activity levels', 'Sleep disturbances', 'Impulsivity', 'Racing thoughts', 'Grandiose ideas', 'Risky behavior']"
+
+Autism Spectrum Disorder,"['Social communication difficulties', 'Repetitive behaviors', 'Limited interests', 'Sensory sensitivities', 'Difficulty with change', 'Language delays', 'Lack of eye contact', 'Difficulty understanding emotions', 'Echolalia', 'Motor skill issues']"
+
+Kidney Disease,"['Fatigue', 'Difficulty concentrating', 'Poor appetite', 'Insomnia', 'Muscle cramps', 'Swollen feet and ankles', 'Dry itchy skin', 'Frequent urination', 'Blood in urine', 'High blood pressure']"
+
+Hepatitis,"['Fatigue', 'Nausea', 'Vomiting', 'Abdominal pain', 'Loss of appetite', 'Dark urine', 'Pale stools', 'Joint pain', 'Jaundice', 'Fever']"
+
+Cirrhosis,"['Fatigue', 'Easy bleeding', 'Easy bruising', 'Itchy skin', 'Loss of appetite', 'Nausea', 'Swelling in legs', 'Fluid buildup in abdomen', 'Weight loss', 'Confusion']"
+
+Sickle Cell Disease,"['Pain', 'Fatigue', 'Swelling of hands and feet', 'Frequent infections', 'Vision problems', 'Delayed growth', 'Anemia', 'Jaundice', 'Priapism', 'Stroke']"
+
+Cystic Fibrosis,"['Persistent cough', 'Wheezing', 'Breathlessness', 'Repeated lung infections', 'Poor weight gain', 'Greasy stools', 'Male infertility', 'Salty-tasting skin', 'Nasal polyps', 'Clubbed fingers and toes']"
+
+Endometriosis,"['Pelvic pain', 'Painful periods', 'Pain during intercourse', 'Pain with bowel movements', 'Excessive bleeding', 'Infertility', 'Fatigue', 'Bloating', 'Nausea', 'Lower back pain']"
+
+Polycystic Ovary Syndrome,"['Irregular periods', 'Excess hair growth', 'Acne', 'Weight gain', 'Difficulty getting pregnant', 'Thinning hair', 'Darkening of skin', 'Skin tags', 'Depression', 'Sleep apnea']"
+
+Addison's Disease,"['Fatigue', 'Muscle weakness', 'Weight loss', 'Low blood pressure', 'Salt craving', 'Low blood sugar', 'Nausea', 'Diarrhea', 'Vomiting', 'Depression']"
+
+Cushing's Syndrome,"['Weight gain', 'Fatty tissue deposits', 'Pink or purple stretch marks', 'Thinning skin', 'Easy bruising', 'Slow healing of wounds', 'Acne', 'Muscle weakness', 'High blood pressure', 'Mood swings']"
+
+Graves' Disease,"['Anxiety', 'Irritability', 'Heat sensitivity', 'Weight loss', 'Enlarged thyroid gland', 'Bulging eyes', 'Vision problems', 'Fatigue', 'Irregular heartbeat', 'Tremor']"
+
+Hashimoto's Thyroiditis,"['Fatigue', 'Weight gain', 'Joint and muscle pain', 'Constipation', 'Dry skin', 'Depression', 'Excessive or prolonged menstrual bleeding', 'Slowed heart rate', 'Impaired memory', 'Enlarged thyroid gland']"
+
+Sjogren's Syndrome,"['Dry eyes', 'Dry mouth', 'Fatigue', 'Joint pain', 'Swollen salivary glands', 'Skin rashes', 'Dry skin', 'Vaginal dryness', 'Persistent cough', 'Prolonged fatigue']"
+
+Raynaud's Disease,"['Cold fingers and toes', 'Color changes in skin in response to cold', 'Numbness', 'Prickling or stinging pain', 'Warmth or pain as blood flow returns', 'Sores on extremities', 'Gangrene', 'Ulceration of fingertips', 'Swelling of affected areas', 'Impaired blood flow']"
+
+Gout,"['Severe joint pain', 'Lingering discomfort', 'Inflammation', 'Redness', 'Limited range of motion', 'Warmth in affected joint', 'Kidney stones', 'Tophi', 'High uric acid levels', 'Fatigue']"
+
+Buerger's Disease,"['Pain in limbs', 'Skin changes', 'Ulcers on toes or fingers', 'Numbness or tingling in limbs', 'Cold hands or feet', 'Gangrene', 'Impaired blood flow', 'Inflammation of blood vessels', 'Difficulty walking', ""Raynaud's phenomenon""]"
+
+Takayasu's Arteritis,"['Fatigue', 'Fever', 'Weight loss', 'Joint pain', 'Muscle aches', 'Weak pulse', 'High blood pressure', 'Dizziness', 'Vision problems', 'Arm or chest pain']"
+
+Behcet's Disease,"['Mouth sores', 'Genital sores', 'Eye inflammation', 'Skin lesions', 'Joint swelling', 'Digestive discomfort', 'Headaches', 'Uveitis', 'Blood clots', 'Neurological problems']"
+
+Sarcoidosis,"['Fatigue', 'Swollen lymph nodes', 'Weight loss', 'Shortness of breath', 'Dry cough', 'Skin lesions', 'Joint pain', 'Blurred vision', 'Irregular heartbeat', 'Night sweats']"
+
+Amyotrophic Lateral Sclerosis,"['Muscle weakness', 'Muscle twitching', 'Slurred speech', 'Difficulty swallowing', 'Muscle cramps', 'Muscle stiffness', 'Difficulty walking', 'Shortness of breath', 'Cognitive changes', 'Fatigue']"
+
+Huntington's Disease,"['Involuntary movements', 'Impaired gait', 'Slurred speech', 'Difficulty swallowing', 'Memory problems', 'Depression', 'Anxiety', 'Obsessive behavior', 'Insomnia', 'Weight loss']"
+
+Muscular Dystrophy,"['Progressive muscle weakness', 'Loss of muscle mass', 'Difficulty walking', 'Frequent falls', 'Difficulty rising from sitting', 'Breathing problems', 'Heart problems', 'Scoliosis', 'Contractures', 'Learning disabilities']"
+
+Myasthenia Gravis,"['Muscle weakness', 'Drooping eyelids', 'Double vision', 'Difficulty speaking', 'Difficulty swallowing', 'Shortness of breath', 'Impaired facial expressions', 'Fatigue', 'Weakness in arms and legs', 'Choking easily']"
+
+Guillain-Barre Syndrome,"['Weakness in legs', 'Tingling in fingers and toes', 'Difficulty walking', 'Difficulty with facial movements', 'Difficulty with eye movements', 'Difficulty swallowing', 'Difficulty speaking', 'Pain', 'Rapid heart rate', 'Low or high blood pressure']"
+
+Chronic Fatigue Syndrome,"['Extreme fatigue', 'Loss of memory or concentration', 'Sore throat', 'Enlarged lymph nodes', 'Unexplained muscle pain', 'Joint pain without swelling', 'Headaches', 'Unrefreshing sleep', 'Extreme exhaustion after physical or mental exercise', 'Orthostatic intolerance']"
+
+Lyme Disease,"[""Bull's-eye rash"", 'Fever', 'Chills', 'Fatigue', 'Body aches', 'Headache', 'Neck stiffness', 'Swollen lymph nodes', 'Joint pain', 'Neurological problems']"
+
+Malaria,"['Fever', 'Chills', 'Sweating', 'Fatigue', 'Nausea', 'Vomiting', 'Headache', 'Muscle pain', 'Abdominal pain', 'Diarrhea']"
+
+Tuberculosis,"['Persistent cough', 'Coughing up blood', 'Chest pain', 'Fatigue', 'Fever', 'Night sweats', 'Unexplained weight loss', 'Loss of appetite', 'Chills', 'Shortness of breath']"
+
+Zika Virus,"['Fever', 'Rash', 'Joint pain', 'Muscle pain', 'Headache', 'Conjunctivitis', 'Fatigue', 'Abdominal pain', 'Vomiting', 'Neurological complications']"
+
+Ebola,"['Fever', 'Severe headache', 'Muscle pain', 'Weakness', 'Fatigue', 'Diarrhea', 'Vomiting', 'Abdominal pain', 'Unexplained hemorrhage', 'Impaired kidney and liver function']"
+
+Dengue Fever,"['High fever', 'Severe headache', 'Pain behind the eyes', 'Muscle and joint pain', 'Nausea', 'Vomiting', 'Skin rash', 'Fatigue', 'Easy bruising', 'Bleeding gums']"
+
+Yellow Fever,"['Fever', 'Chills', 'Headache', 'Back pain', 'Muscle aches', 'Nausea', 'Vomiting', 'Fatigue', 'Weakness', 'Jaundice']"
+
+Chikungunya,"['Sudden high fever', 'Severe joint pain', 'Muscle pain', 'Headache', 'Nausea', 'Fatigue', 'Rash', 'Joint swelling', 'Eye inflammation', 'Insomnia']"
+
+West Nile Virus,"['Fever', 'Headache', 'Body aches', 'Joint pain', 'Vomiting', 'Diarrhea', 'Skin rash', 'Fatigue', 'Weakness', 'Altered mental state']"
+
+HIV/AIDS,"['Fever', 'Chills', 'Rash', 'Night sweats', 'Muscle aches', 'Sore throat', 'Fatigue', 'Swollen lymph nodes', 'Mouth ulcers', 'Weight loss']"
+
+Syphilis,"['Painless sores', 'Skin rash', 'Fever', 'Swollen lymph nodes', 'Sore throat', 'Patchy hair loss', 'Headaches', 'Weight loss', 'Muscle aches', 'Fatigue']"
+
+Gonorrhea,"['Painful urination', 'Increased urinary frequency', 'Pus-like discharge', 'Swollen testicles', 'Anal itching', 'Sore throat', 'Joint pain', 'Fever', 'Abdominal pain', 'Irregular menstrual bleeding']"
+
+Chlamydia,"['Painful urination', 'Abnormal vaginal discharge', 'Lower abdominal pain', 'Testicular pain', 'Bleeding between periods', 'Pain during intercourse', 'Fever', 'Nausea', 'Eye inflammation', 'Throat infection']"
+
+Herpes,"['Painful blisters', 'Itching', 'Burning sensation', 'Flu-like symptoms', 'Swollen lymph nodes', 'Fatigue', 'Headache', 'Muscle aches', 'Decreased appetite', 'Fever']"
+
+Human Papillomavirus,"['Genital warts', 'Cervical cancer', 'Anal cancer', 'Throat cancer', 'Vaginal cancer', 'Vulvar cancer', 'Penile cancer', 'Rectal cancer', 'Abnormal Pap smear', 'Itching']"
+
+Trichomoniasis,"['Itching in genital area', 'Burning sensation', 'Redness', 'Soreness', 'Abnormal discharge', 'Pain during urination', 'Pain during intercourse', 'Swelling in genital area', 'Lower abdominal pain', 'Frequent urination']"
+
+Hepatitis B,"['Fatigue', 'Nausea', 'Vomiting', 'Abdominal pain', 'Loss of appetite', 'Dark urine', 'Pale stools', 'Joint pain', 'Jaundice', 'Fever']"
+
+Hepatitis C,"['Fatigue', 'Nausea', 'Vomiting', 'Abdominal pain', 'Loss of appetite', 'Dark urine', 'Pale stools', 'Joint pain', 'Jaundice', 'Fever']"
+
+Measles,"['High fever', 'Cough', 'Runny nose', 'Red watery eyes', 'Sore throat', ""Koplik's spots"", 'Skin rash', 'Sensitivity to light', 'Fatigue', 'Loss of appetite']"
+
+Mumps,"['Swollen salivary glands', 'Fever', 'Headache', 'Muscle aches', 'Fatigue', 'Loss of appetite', 'Pain while chewing', 'Dry mouth', 'Difficulty swallowing', 'Testicular swelling']"
+
+Rubella,"['Mild fever', 'Sore throat', 'Fatigue', 'Red eyes', 'Headache', 'Skin rash', 'Swollen lymph nodes', 'Joint pain', 'Muscle pain', 'Runny nose']"
+
+Chickenpox,"['Itchy rash', 'Fever', 'Fatigue', 'Loss of appetite', 'Headache', 'Fluid-filled blisters', 'Scabs', 'Muscle aches', 'Nausea', 'Dehydration']"
+
+Shingles,"['Painful rash', 'Burning sensation', 'Sensitivity to touch', 'Fluid-filled blisters', 'Itching', 'Fever', 'Headache', 'Fatigue', 'Sensitivity to light', 'Numbness']"
+
+Polio,"['Fever', 'Sore throat', 'Headache', 'Vomiting', 'Fatigue', 'Limb pain', 'Neck stiffness', 'Meningitis', 'Paralysis', 'Difficulty breathing']"
+
+Tetanus,"['Jaw cramping', 'Muscle stiffness', 'Muscle spasms', 'Difficulty swallowing', 'Fever', 'Sweating', 'Elevated blood pressure', 'Rapid heart rate', 'Painful muscle contractions', 'Difficulty breathing']"
+
+Diphtheria,"['Sore throat', 'Fever', 'Swollen glands', 'Difficulty breathing', 'Nasal discharge', 'Thick gray membrane over throat', 'Bluish skin coloration', 'Rapid heart rate', 'Weakness', 'Fatigue']"
+
+Pertussis,"['Severe coughing fits', 'Whooping sound', 'Vomiting', 'Exhaustion', 'Runny nose', 'Low-grade fever', 'Apnea', 'Red or blue face', 'Dehydration', 'Weight loss']"
+
+Meningitis,"['Sudden high fever', 'Severe headache', 'Stiff neck', 'Sensitivity to light', 'Nausea', 'Vomiting', 'Confusion', 'Seizures', 'Skin rash', 'Drowsiness']"
+
+Sepsis,"['Fever', 'Chills', 'Rapid breathing', 'Rapid heart rate', 'Confusion', 'Extreme pain or discomfort', 'Clammy or sweaty skin', 'Shortness of breath', 'Low blood pressure', 'Dizziness']"
+
+Legionnaires' Disease,"['High fever', 'Cough', 'Shortness of breath', 'Chest pain', 'Gastrointestinal symptoms', 'Headache', 'Muscle pain', 'Confusion', 'Nausea', 'Diarrhea']"
+
+Leptospirosis,"['High fever', 'Headache', 'Muscle pain', 'Abdominal pain', 'Jaundice', 'Red eyes', 'Skin rash', 'Vomiting', 'Diarrhea', 'Cough']"
+
+Q Fever,"['High fever', 'Severe headache', 'Muscle pain', 'Fatigue', 'Chills', 'Nausea', 'Vomiting', 'Chest pain', 'Cough', 'Confusion']"
+
+Rabies,"['Fever', 'Headache', 'Nausea', 'Vomiting', 'Agitation', 'Confusion', 'Hallucinations', 'Insomnia', 'Partial paralysis', 'Excessive salivation']"
+
+Anthrax,"['Fever', 'Chills', 'Shortness of breath', 'Chest discomfort', 'Confusion', 'Nausea', 'Vomiting', 'Stomach pain', 'Sore throat', 'Difficulty swallowing']"
+
+Botulism,"['Difficulty speaking', 'Difficulty swallowing', 'Difficulty breathing', 'Blurred vision', 'Drooping eyelids', 'Facial weakness', 'Body weakness', 'Paralysis', 'Nausea', 'Vomiting']"
+
+Plague,"['Sudden onset of fever', 'Chills', 'Head and body aches', 'Weakness', 'Nausea', 'Vomiting', 'Swollen lymph nodes', 'Abdominal pain', 'Diarrhea', 'Chest pain']"
+
+Tularemia,"['Sudden fever', 'Chills', 'Headache', 'Muscle aches', 'Dry cough', 'Chest pain', 'Difficulty breathing', 'Sore throat', 'Swollen lymph glands', 'Skin ulcers']"
+
+Brucellosis,"['Fever', 'Sweats', 'Joint pain', 'Fatigue', 'Headache', 'Back pain', 'Loss of appetite', 'Weight loss', 'Abdominal pain', 'Constipation']"
+
+Typhoid Fever,"['High fever', 'Headache', 'Abdominal pain', 'Diarrhea or constipation', 'Rose-colored spots on chest', 'Dry cough', 'Loss of appetite', 'Fatigue', 'Muscle aches', 'Enlarged liver or spleen']"
+
+Cholera,"['Profuse watery diarrhea', 'Vomiting', 'Leg cramps', 'Rapid heart rate', 'Low blood pressure', 'Dry mucous membranes', 'Excessive thirst', 'Restlessness', 'Irritability', 'Sunken eyes']"
+
+Dysentery,"['Abdominal pain', 'Bloody diarrhea', 'Tenesmus', 'Fever', 'Nausea', 'Vomiting', 'Fatigue', 'Dehydration', 'Loss of appetite', 'Weight loss']"
+
+Giardiasis,"['Watery diarrhea', 'Abdominal cramps', 'Bloating', 'Nausea', 'Fatigue', 'Weight loss', 'Greasy stools', 'Gas', 'Upset stomach', 'Loss of appetite']"
+
+Cryptosporidiosis,"['Watery diarrhea', 'Stomach cramps', 'Nausea', 'Vomiting', 'Dehydration', 'Fever', 'Weight loss', 'Loss of appetite', 'Malaise', 'Abdominal pain']"
+
+Amebiasis,"['Abdominal pain', 'Bloody stools', 'Diarrhea', 'Fever', 'Weight loss', 'Fatigue', 'Nausea', 'Vomiting', 'Loss of appetite', 'Abdominal cramps']"
+
+Toxoplasmosis,"['Flu-like symptoms', 'Swollen lymph nodes', 'Muscle aches', 'Fever', 'Fatigue', 'Sore throat', 'Headache', 'Confusion', 'Seizures', 'Blurred vision']"
+
+Schistosomiasis,"['Abdominal pain', 'Bloody stools', 'Diarrhea', 'Fever', 'Fatigue', 'Skin rash', 'Muscle aches', 'Cough', 'Shortness of breath', 'Enlarged liver and spleen']"
+
+Trichinosis,"['Nausea', 'Diarrhea', 'Abdominal pain', 'Fatigue', 'Fever', 'Muscle pain', 'Swelling of eyelids', 'Eosinophilia', 'Weakness', 'Sweating']"
+
+Ascariasis,"['Abdominal pain', 'Diarrhea', 'Bloody stools', 'Nausea', 'Vomiting', 'Weight loss', 'Fatigue', 'Wheezing', 'Cough', 'Fever']"
+
+Hookworm Infection,"['Abdominal pain', 'Diarrhea', 'Loss of appetite', 'Weight loss', 'Fatigue', 'Anemia', 'Itchy rash', 'Shortness of breath', 'Pale skin', 'Heart problems']"
+
+Filariasis,"['Swelling of limbs', 'Swelling of genitals', 'Fever', 'Chills', 'Skin thickening', 'Painful lymph nodes', 'Fatigue', 'Muscle pain', 'Headache', 'Reduced lymphatic function']"
+
+Onchocerciasis,"['Severe itching', 'Skin rash', 'Skin discoloration', 'Eye problems', 'Blindness', 'Nodules under skin', 'Fatigue', 'Weight loss', 'Swollen lymph nodes', 'Fever']"
+
+Chagas Disease,"['Fever', 'Fatigue', 'Body aches', 'Headache', 'Rash', 'Loss of appetite', 'Nausea', 'Vomiting', 'Diarrhea', 'Swollen eyelids']"
+
+African Trypanosomiasis,"['Fever', 'Severe headaches', 'Muscle and joint pain', 'Itching', 'Swollen lymph nodes', 'Sleep problems', 'Confusion', 'Poor coordination', 'Behavior changes', 'Weight loss']"
+
+Leishmaniasis,"['Skin sores', 'Ulcers', 'Fever', 'Weight loss', 'Enlarged spleen', 'Enlarged liver', 'Anemia', 'Skin darkening', 'Swollen lymph nodes', 'Nose bleeds']"
+
+Babesiosis,"['Fever', 'Chills', 'Sweats', 'Fatigue', 'Body aches', 'Loss of appetite', 'Nausea', 'Headache', 'Shortness of breath', 'Confusion']"
+
+Malaria,"['Fever', 'Chills', 'Sweating', 'Headache', 'Nausea', 'Vomiting', 'Abdominal pain', 'Diarrhea', 'Anemia', 'Muscle pain']"
+
+Yellow Fever,"['Sudden fever', 'Chills', 'Severe headache', 'Back pain', 'Body aches', 'Nausea', 'Vomiting', 'Fatigue', 'Weakness', 'Jaundice']"
+
+Dengue Fever,"['High fever', 'Severe headache', 'Pain behind eyes', 'Muscle and joint pain', 'Nausea', 'Vomiting', 'Skin rash', 'Fatigue', 'Easy bruising', 'Bleeding gums']"
+
+Zika Virus,"['Fever', 'Rash', 'Joint pain', 'Conjunctivitis', 'Muscle pain', 'Headache', 'Pain behind eyes', 'Fatigue', 'Red eyes', 'Sensitivity to light']"
+
+Chikungunya,"['Sudden high fever', 'Severe joint pain', 'Muscle pain', 'Headache', 'Nausea', 'Fatigue', 'Rash', 'Eye inflammation', 'Insomnia', 'Photophobia']"
+
+West Nile Virus,"['Fever', 'Headache', 'Body aches', 'Joint pains', 'Vomiting', 'Diarrhea', 'Rash', 'Fatigue', 'Weakness', 'Swollen lymph glands']"
+
+Japanese Encephalitis,"['High fever', 'Headache', 'Neck stiffness', 'Tremors', 'Seizures', 'Confusion', 'Memory loss', 'Nausea', 'Vomiting', 'Sensitivity to light']"
+
+Tick-Borne Encephalitis,"['Fever', 'Fatigue', 'Headache', 'Muscle pain', 'Nausea', 'Confusion', 'Seizures', 'Paralysis', 'Memory problems', 'Speech impairment']"
+
+Rift Valley Fever,"['Fever', 'Muscle pain', 'Back pain', 'Dizziness', 'Weight loss', 'Neck stiffness', 'Sensitivity to light', 'Vision problems', 'Nausea', 'Vomiting']"
+
+Crimean-Congo Hemorrhagic Fever,"['Sudden onset of fever', 'Muscle ache', 'Dizziness', 'Neck pain', 'Back pain', 'Headache', 'Sore eyes', 'Nausea', 'Vomiting', 'Diarrhea']"
+
+Hantavirus Pulmonary Syndrome,"['Fatigue', 'Fever', 'Muscle aches', 'Headaches', 'Dizziness', 'Chills', 'Nausea', 'Vomiting', 'Diarrhea', 'Abdominal pain']"
+
+Lassa Fever,"['Gradual fever', 'Weakness', 'Malaise', 'Headache', 'Sore throat', 'Muscle pain', 'Chest pain', 'Nausea', 'Vomiting', 'Diarrhea']"
+
+Marburg Virus Disease,"['Sudden onset of fever', 'Severe headache', 'Muscle aches', 'Watery diarrhea', 'Abdominal pain', 'Nausea', 'Vomiting', 'Chest pain', 'Sore throat', 'Cough']"
+
+Ebola Virus Disease,"['Fever', 'Severe headache', 'Muscle pain', 'Weakness', 'Fatigue', 'Diarrhea', 'Vomiting', 'Abdominal pain', 'Unexplained hemorrhage', 'Impaired kidney and liver function']"
+
+Nipah Virus Infection,"['Fever', 'Headache', 'Muscle pain', 'Vomiting', 'Sore throat', 'Dizziness', 'Drowsiness', 'Altered consciousness', 'Neurological symptoms', 'Severe respiratory problems']"
+
+Hendra Virus Infection,"['Fever', 'Cough', 'Sore throat', 'Headache', 'Fatigue', 'Muscle pain', 'Vomiting', 'Diarrhea', 'Neurological symptoms', 'Respiratory distress']"
+
+Monkeypox,"['Fever', 'Headache', 'Muscle aches', 'Backache', 'Swollen lymph nodes', 'Chills', 'Exhaustion', 'Respiratory symptoms', 'Skin rash', 'Lesions']"
+
+Smallpox,"['High fever', 'Severe back pain', 'Severe headache', 'Severe abdominal pain', 'Vomiting', 'Skin rash', 'Lesions', 'Delirium', 'Excessive bleeding', 'Blindness']"
+
+Bubonic Plague,"['Sudden onset of fever', 'Chills', 'Headache', 'Muscle aches', 'Weakness', 'Swollen lymph nodes', 'Nausea', 'Vomiting', 'Abdominal pain', 'Diarrhea']"
+
+Pneumonic Plague,"['High fever', 'Chills', 'Rapid onset pneumonia', 'Shortness of breath', 'Chest pain', 'Cough', 'Bloody or watery sputum', 'Nausea', 'Vomiting', 'Abdominal pain']"
+
+Septicemic Plague,"['Fever', 'Chills', 'Extreme weakness', 'Abdominal pain', 'Shock', 'Bleeding into skin and organs', 'Skin turning black', 'Nausea', 'Vomiting', 'Diarrhea']"
+
+Tularemia,"['Sudden fever', 'Chills', 'Headache', 'Muscle aches', 'Dry cough', 'Chest pain', 'Progressive weakness', 'Pneumonia', 'Skin ulcers', 'Swollen lymph glands']"
+
+Q Fever,"['High fever', 'Severe headache', 'Muscle pain', 'Confusion', 'Sore throat', 'Chills', 'Sweats', 'Nausea', 'Vomiting', 'Diarrhea']"
+
+Brucellosis,"['Fever', 'Sweats', 'Joint pain', 'Fatigue', 'Headache', 'Appetite loss', 'Weight loss', 'Back pain', 'Abdominal pain', 'Muscle pain']"
+
+Anthrax,"['Fever', 'Chills', 'Shortness of breath', 'Confusion', 'Dizziness', 'Cough', 'Nausea', 'Vomiting', 'Abdominal pain', 'Headache']"
+
+Glanders,"['Fever', 'Muscle aches', 'Chest pain', 'Muscle tightness', 'Headache', 'Excessive tearing of eyes', 'Light sensitivity', 'Diarrhea', 'Generalized erythema', 'Skin abscesses']"
+
+Melioidosis,"['Fever', 'Cough', 'Chest pain', 'Headache', 'Respiratory distress', 'Abdominal discomfort', 'Joint pain', 'Disorientation', 'Seizures', 'Skin abscesses']"
+
+Psittacosis,"['Fever', 'Chills', 'Headache', 'Muscle aches', 'Dry cough', 'Shortness of breath', 'Fatigue', 'Nausea', 'Vomiting', 'Diarrhea']"
+
+Histoplasmosis,"['Fever', 'Chills', 'Headache', 'Muscle aches', 'Dry cough', 'Chest discomfort', 'Fatigue', 'Joint pain', 'Skin rash', 'Eye problems']"
+
+Coccidioidomycosis,"['Fever', 'Cough', 'Chest pain', 'Shortness of breath', 'Headache', 'Joint pain', 'Muscle aches', 'Fatigue', 'Skin rash', 'Night sweats']"
+
+Blastomycosis,"['Fever', 'Cough', 'Shortness of breath', 'Chest pain', 'Weight loss', 'Joint pain', 'Skin lesions', 'Night sweats', 'Fatigue', 'Muscle pain']"
+
+Cryptococcosis,"['Headache', 'Fever', 'Cough', 'Shortness of breath', 'Chest pain', 'Confusion', 'Nausea', 'Vomiting', 'Blurred vision', 'Skin lesions']"
+
+Aspergillosis,"['Fever', 'Cough', 'Shortness of breath', 'Chest pain', 'Wheezing', 'Coughing up blood', 'Fatigue', 'Weight loss', 'Headaches', 'Visual disturbances']"
+
+Candidiasis,"['White patches in mouth', 'Redness and soreness', 'Difficulty swallowing', 'Loss of taste', 'Rash', 'Itching', 'Genital burning', 'Genital discharge', 'Fatigue', 'Mood swings']"
+
+Mucormycosis,"['Sinus pain', 'Nasal congestion', 'Fever', 'Headache', 'Eye swelling', 'Vision problems', 'Skin lesions', 'Shortness of breath', 'Chest pain', 'Altered mental status']"
+
+Pneumocystis Pneumonia,"['Difficulty breathing', 'Dry cough', 'Fever', 'Chest discomfort', 'Fatigue', 'Weight loss', 'Night sweats', 'Rapid breathing', 'Shortness of breath', 'Wheezing']"
+
+Sporotrichosis,"['Skin lesions', 'Skin ulcers', 'Nodules along lymph vessels', 'Joint pain', 'Fever', 'Cough', 'Shortness of breath', 'Weight loss', 'Fatigue', 'Eye problems']"
+
+Scedosporiosis,"['Fever', 'Cough', 'Shortness of breath', 'Chest pain', 'Skin lesions', 'Joint pain', 'Headache', 'Sinus infection', 'Eye infection', 'Brain abscess']"
+
+Fusariosis,"['Fever', 'Skin lesions', 'Sinus infection', 'Pneumonia', 'Eye infection', 'Headache', 'Muscle weakness', 'Joint pain', 'Confusion', 'Seizures']"
+
+Chromoblastomycosis,"['Skin lesions', 'Itching', 'Swelling', 'Skin discoloration', 'Pain', 'Secondary bacterial infections', 'Lymph node enlargement', 'Elephantiasis', 'Squamous cell carcinoma', 'Difficulty moving affected limb']"
+
+Mycetoma,"['Painless swelling', 'Sinuses formation', 'Discharge', 'Bone involvement', 'Skin discoloration', 'Deformity', 'Difficulty walking', 'Secondary infections', 'Lymph node swelling', 'Fever']"
+
+Rhinosporidiosis,"['Nasal polyps', 'Nasal obstruction', 'Epistaxis', 'Nasal discharge', 'Sneezing', 'Itching', 'Eye lesions', 'Throat lesions', 'Disseminated lesions', 'Difficulty breathing']"
+
+Penicilliosis,"['Fever', 'Weight loss', 'Anemia', 'Skin lesions', 'Cough', 'Diarrhea', 'Enlarged lymph nodes', 'Enlarged liver', 'Enlarged spleen', 'Bone marrow involvement']"
+
+Paracoccidioidomycosis,"['Mouth ulcers', 'Nose lesions', 'Skin lesions', 'Lymph node enlargement', 'Cough', 'Fever', 'Weight loss', 'Difficulty breathing', 'Chest pain', 'Abdominal pain']"
+
+Pneumocystis jirovecii pneumonia,"['Difficulty breathing', 'Dry cough', 'Fever', 'Chest discomfort', 'Fatigue', 'Weight loss', 'Night sweats', 'Rapid breathing', 'Shortness of breath', 'Wheezing']"
+
+Talaromycosis,"['Fever', 'Weight loss', 'Skin lesions', 'Anemia', 'Enlarged liver', 'Enlarged spleen', 'Cough', 'Diarrhea', 'Abdominal pain', 'Lymph node swelling']"
+
+Microsporidiosis,"['Diarrhea', 'Malabsorption', 'Weight loss', 'Abdominal pain', 'Nausea', 'Vomiting', 'Eye inflammation', 'Muscle weakness', 'Fever', 'Fatigue']"
+
+Pythiosis,"['Skin lesions', 'Gastrointestinal symptoms', 'Vascular symptoms', 'Fever', 'Weight loss', 'Abdominal pain', 'Diarrhea', 'Blood in stool', 'Skin ulcers', 'Tissue necrosis']"
+
+Lagenidiosis,"['Skin lesions', 'Subcutaneous nodules', 'Ulceration', 'Pain', 'Fever', 'Lymphangitis', 'Lymphadenopathy', 'Systemic spread', 'Necrosis', 'Secondary bacterial infections']"
+
+Protothecosis,"['Skin lesions', 'Joint pain', 'Bursitis', 'Difficulty walking', 'Eye inflammation', 'Diarrhea', 'Abdominal pain', 'Fever', 'Fatigue', 'Weight loss']"
+
+Pneumocystosis,"['Difficulty breathing', 'Dry cough', 'Fever', 'Chest discomfort', 'Fatigue', 'Weight loss', 'Night sweats', 'Rapid breathing', 'Shortness of breath', 'Wheezing']"
+
+Emmonsiosis,"['Skin lesions', 'Lung infection', 'Fever', 'Cough', 'Chest pain', 'Difficulty breathing', 'Weight loss', 'Night sweats', 'Fatigue', 'Enlarged lymph nodes']"
+
+Emergomycosis,"['Skin lesions', 'Lung infection', 'Fever', 'Cough', 'Chest pain', 'Difficulty breathing', 'Weight loss', 'Night sweats', 'Fatigue', 'Enlarged lymph nodes']"
+
+Basidiobolomycosis,"['Subcutaneous swelling', 'Itching', 'Pain', 'Skin discoloration', 'Ulceration', 'Difficulty moving affected area', 'Secondary bacterial infections', 'Fever', 'Fatigue', 'Weight loss']"
+
+Conidiobolomycosis,"['Nasal swelling', 'Facial swelling', 'Nasal discharge', 'Nasal obstruction', 'Difficulty breathing', 'Eye involvement', 'Skin lesions', 'Fever', 'Fatigue', 'Weight loss']"
+
+Lacaziosis,"['Skin lesions', 'Keloid-like lesions', 'Itching', 'Pain', 'Ulceration', 'Secondary bacterial infections', 'Lymph node swelling', 'Difficulty moving affected area', 'Skin discoloration', 'Psychological distress']"
+
+Paracoccidioidomycosis,"['Mouth ulcers', 'Nose lesions', 'Skin lesions', 'Lymph node enlargement', 'Cough', 'Fever', 'Weight loss', 'Difficulty breathing', 'Chest pain', 'Abdominal pain']"
+
+Sporotrichosis,"['Skin lesions', 'Skin ulcers', 'Nodules along lymph vessels', 'Joint pain', 'Fever', 'Cough', 'Shortness of breath', 'Weight loss', 'Fatigue', 'Eye problems']"
+
+Malassezia infections,"['Skin discoloration', 'Itching', 'Scaling', 'Rash', 'Dandruff', 'Seborrheic dermatitis', 'Folliculitis', 'Systemic infections', 'Catheter-related infections', 'Fungemia']"
+
+Trichosporonosis,"['Skin lesions', 'Hair infection', 'Nail infection', 'Lung infection', 'Blood infection', 'Fever', 'Cough', 'Shortness of breath', 'Fatigue', 'Weight loss']"
+
+Geotrichosis,"['Mouth infection', 'Throat infection', 'Intestinal infection', 'Lung infection', 'Skin infection', 'Fever', 'Cough', 'Difficulty swallowing', 'Abdominal pain', 'Diarrhea']"
+
+Saprochaete infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Kodamaea infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Wickerhamomyces infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Yarrowia infections,"['Skin infections', 'Ear infections', 'Catheter-related infections', 'Blood infections', 'Fever', 'Chills', 'Fatigue', 'Pain', 'Discharge', 'Swelling']"
+
+Saccharomyces infections,"['Diarrhea', 'Abdominal pain', 'Bloating', 'Fever', 'Skin rash', 'Blood infection', 'Lung infection', 'Brain infection', 'Urinary tract infection', 'Vaginal infection']"
+
+Rhodotorula infections,"['Blood infection', 'Meningitis', 'Eye infection', 'Skin infection', 'Fever', 'Headache', 'Vision problems', 'Skin lesions', 'Fatigue', 'Confusion']"
+
+Pichia infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Blastoschizomyces infections,"['Blood infection', 'Lung infection', 'Skin infection', 'Brain infection', 'Fever', 'Cough', 'Shortness of breath', 'Skin lesions', 'Headache', 'Confusion']"
+
+Lodderomyces infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Metschnikowia infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Kluyveromyces infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Clavispora infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Meyerozyma infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Cyberlindnera infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Dekkera infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Hanseniaspora infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Ogataea infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Scheffersomyces infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Torulaspora infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Zygosaccharomyces infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Kloeckera infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Saccharomycopsis infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Debaryomyces infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Magnusiomyces infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Malassezia pachydermatis infections,"['Ear infections', 'Skin infections', 'Itching', 'Redness', 'Scaling', 'Hair loss', 'Greasy skin', 'Odor', 'Secondary bacterial infections', 'Systemic infections']"
+
+Sporobolomyces infections,"['Blood infection', 'Fever', 'Chills', 'Fatigue', 'Skin lesions', 'Lung infection', 'Brain infection', 'Heart infection', 'Kidney infection', 'Liver infection']"
+
+Ustilago infections,"['Skin infections', 'Nail infections', 'Fever', 'Chills', 'Fatigue', 'Pain', 'Swelling', 'Redness', 'Itching', 'Discharge']"
+
+Malbranchea infections,"['Skin infections', 'Nail infections', 'Lung infections', 'Fever', 'Cough', 'Shortness of breath', 'Skin lesions', 'Nail deformities', 'Fatigue', 'Weight loss']"
+
+Schizophyllum infections,"['Sinus infections', 'Lung infections', 'Brain infections', 'Fever', 'Headache', 'Cough', 'Shortness of breath', 'Nasal discharge', 'Confusion', 'Seizures']"
+
+Quambalaria infections,"['Skin infections', 'Subcutaneous infections', 'Lung infections', 'Fever', 'Skin lesions', 'Cough', 'Shortness of breath', 'Pain', 'Swelling', 'Fatigue']"
+
+Hormographiella infections,"['Lung infections', 'Blood infections', 'Fever', 'Cough', 'Shortness of breath', 'Fatigue', 'Chest pain', 'Weight loss', 'Night sweats', 'Hemoptysis']"
+
+Coprinopsis infections,"['Lung infections', 'Sinus infections', 'Fever', 'Cough', 'Shortness of breath', 'Nasal congestion', 'Headache', 'Fatigue', 'Chest pain', 'Nasal discharge']"
+
+Entomophthoromycosis,"['Subcutaneous infections', 'Nasal infections', 'Gastrointestinal infections', 'Swelling', 'Pain', 'Fever', 'Nasal obstruction', 'Difficulty breathing', 'Abdominal pain', 'Diarrhea']"
+
+Pythiosis,"['Skin infections', 'Gastrointestinal infections', 'Vascular infections', 'Pain', 'Swelling', 'Fever', 'Diarrhea', 'Blood in stool', 'Skin ulcers', 'Tissue necrosis']"
+
+Lagenidiosis,"['Skin infections', 'Subcutaneous nodules', 'Ulceration', 'Pain', 'Fever', 'Lymphangitis', 'Lymphadenopathy', 'Systemic spread', 'Necrosis', 'Secondary bacterial infections']"
+
+Rhinosporidiosis,"['Nasal polyps', 'Nasal obstruction', 'Epistaxis', 'Nasal discharge', 'Sneezing', 'Itching', 'Eye lesions', 'Throat lesions', 'Disseminated lesions', 'Difficulty breathing']"
+
+Protothecosis,"['Skin lesions', 'Joint pain', 'Bursitis', 'Difficulty walking', 'Eye inflammation', 'Diarrhea', 'Abdominal pain', 'Fever', 'Fatigue', 'Weight loss']"
+
+Pneumocystis pneumonia,"['Difficulty breathing', 'Dry cough', 'Fever', 'Chest discomfort', 'Fatigue', 'Weight loss', 'Night sweats', 'Rapid breathing', 'Shortness of breath', 'Wheezing']"
+
+Coccidioidomycosis,"['Fever', 'Cough', 'Chest pain', 'Shortness of breath', 'Headache', 'Joint pain', 'Muscle aches', 'Fatigue', 'Skin rash', 'Night sweats']"
+
+Paracoccidioidomycosis,"['Mouth ulcers', 'Nose lesions', 'Skin lesions', 'Lymph node enlargement', 'Cough', 'Fever', 'Weight loss', 'Difficulty breathing', 'Chest pain', 'Abdominal pain']"
+
+Blastomycosis,"['Fever', 'Cough', 'Shortness of breath', 'Chest pain', 'Weight loss', 'Joint pain', 'Skin lesions', 'Night sweats', 'Fatigue', 'Muscle pain']"
+
+Histoplasmosis,"['Fever', 'Chills', 'Headache', 'Muscle aches', 'Dry cough', 'Chest discomfort', 'Fatigue', 'Joint pain', 'Skin rash', 'Eye problems']"
+
+Talaromycosis,"['Fever', 'Weight loss', 'Skin lesions', 'Anemia', 'Enlarged liver', 'Enlarged spleen', 'Cough', 'Diarrhea', 'Abdominal pain', 'Lymph node swelling']"
+
+Emergomycosis,"['Skin lesions', 'Lung infection', 'Fever', 'Cough', 'Chest pain', 'Difficulty breathing', 'Weight loss', 'Night sweats', 'Fatigue', 'Enlarged lymph nodes']"
+
+Sporotrichosis,"['Skin lesions', 'Skin ulcers', 'Nodules along lymph vessels', 'Joint pain', 'Fever', 'Cough', 'Shortness of breath', 'Weight loss', 'Fatigue', 'Eye problems']"
+
+Chromoblastomycosis,"['Skin lesions', 'Itching', 'Swelling', 'Skin discoloration', 'Pain', 'Secondary bacterial infections', 'Lymph node enlargement', 'Elephantiasis', 'Squamous cell carcinoma', 'Difficulty moving affected limb']"
+
+Phaeohyphomycosis,"['Skin lesions', 'Subcutaneous nodules', 'Brain abscesses', 'Sinus infections', 'Lung infections', 'Fever', 'Headache', 'Cough', 'Shortness of breath', 'Neurological symptoms']"
+
+Mycetoma,"['Painless swelling', 'Sinuses formation', 'Discharge', 'Bone involvement', 'Skin discoloration', 'Deformity', 'Difficulty walking', 'Secondary infections', 'Lymph node swelling', 'Fever']"
+
+Lobomycosis,"['Skin lesions', 'Keloid-like lesions', 'Itching', 'Pain', 'Ulceration', 'Secondary bacterial infections', 'Lymph node swelling', 'Difficulty moving affected area', 'Skin discoloration', 'Psychological distress']"
+
+Rhinosporidiosis,"['Nasal polyps', 'Nasal obstruction', 'Epistaxis', 'Nasal discharge', 'Sneezing', 'Itching', 'Eye lesions', 'Throat lesions', 'Disseminated lesions', 'Difficulty breathing']"
+
+Lacaziosis,"['Skin lesions', 'Keloid-like lesions', 'Itching', 'Pain', 'Ulceration', 'Secondary bacterial infections', 'Lymph node swelling', 'Difficulty moving affected area', 'Skin discoloration', 'Psychological distress']"
+
+Emmonsiosis,"['Skin lesions', 'Lung infection', 'Fever', 'Cough', 'Chest pain', 'Difficulty breathing', 'Weight loss', 'Night sweats', 'Fatigue', 'Enlarged lymph nodes']"
+
+Pythiosis,"['Skin lesions', 'Gastrointestinal symptoms', 'Vascular symptoms', 'Fever', 'Weight loss', 'Abdominal pain', 'Diarrhea', 'Blood in stool', 'Skin ulcers', 'Tissue necrosis']"
+
+Basidiobolomycosis,"['Subcutaneous swelling', 'Itching', 'Pain', 'Skin discoloration', 'Ulceration', 'Difficulty moving affected area', 'Secondary bacterial infections', 'Fever', 'Fatigue', 'Weight loss']"
+
+Conidiobolomycosis,"['Nasal swelling', 'Facial swelling', 'Nasal discharge', 'Nasal obstruction', 'Difficulty breathing', 'Eye involvement', 'Skin lesions', 'Fever', 'Fatigue', 'Weight loss']"
+
+Pneumocystis jirovecii pneumonia,"['Difficulty breathing', 'Dry cough', 'Fever', 'Chest discomfort', 'Fatigue', 'Weight loss', 'Night sweats', 'Rapid breathing', 'Shortness of breath', 'Wheezing']"
+
+Microsporidia infections,"['Diarrhea', 'Malabsorption', 'Weight loss', 'Abdominal pain', 'Nausea', 'Vomiting', 'Eye inflammation', 'Muscle weakness', 'Fever', '']"
+
