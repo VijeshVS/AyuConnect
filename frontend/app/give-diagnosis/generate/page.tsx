@@ -30,16 +30,14 @@ type PatientInfo = {
   medicines: string;
 };
 
-
-
 const PatientInfoComponent: React.FC = () => {
   const [patientInfo, setPatientInfo] = useState<PatientInfo>(patientInfoMock);
   const [loading, setLoading] = useState(true);
 
-  useEffect(()=>{
-    const patient = JSON.parse(localStorage.getItem('patient') || "");
-    setPatientInfo(patient)
-  },[])
+  useEffect(() => {
+    const patient = JSON.parse(localStorage.getItem("patient") || "");
+    setPatientInfo(patient);
+  }, []);
 
   const fetchPatientInfo = () => {
     // api call

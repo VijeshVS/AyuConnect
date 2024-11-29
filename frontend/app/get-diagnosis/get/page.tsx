@@ -1,7 +1,7 @@
 "use client";
 import Loading from "@/app/components/Loading";
-import React, { useEffect, useState } from "react";
-import axios from "axios";
+import React, { useState } from "react";
+import { converseWithAI } from "@/app/actions/getResponse";
 
 const page = () => {
   const [loading, setLoading] = useState(false);
@@ -10,16 +10,33 @@ const page = () => {
   const [done, setDone] = useState(false);
 
   async function res() {
-    const res = await axios.post('http://localhost:6000/getResponse',{
-      input: question
-    }).then((response)=>{
-      console.log(response.data)
-    })
+    setLoading(true);
+    converseWithAI(answer).then((res) => {
+      const word = res?.split(" ")[0];
+      if (word == "SUMMARY:" || word == "SUMMARY") {
+        console.log(res)
+        if (!localStorage.getItem("dii")) {
+          const arr = [];
+          arr.push(res);
+          localStorage.setItem("dii", JSON.stringify(arr));
+        } else {
+          const arr = JSON.parse(localStorage.getItem("dii") || "");
+          arr.push(res);
+          localStorage.setItem("dii", JSON.stringify(arr));
+        }
+        setDone(true);
+        setLoading(false);
+        return;
+      }
+      setQuestion(res as string);
+      setLoading(false);
+      setAnswer("");
+    });
   }
 
   return (
     <div
-      className="flex flex-col items-center justify-center h-screen"
+      className="flex flex-col items-center justify-center h-screen px-48"
       style={{
         backgroundImage: 'url("/bg-patient.png")',
         backgroundSize: "cover",
@@ -32,7 +49,7 @@ const page = () => {
         ) : (
           <>
             <h1 className="mb-5 text-3xl font-bold text-gray-800">
-              Enter Patient Details
+              {done ? "Here is the full summary" : "Enter Patient Details"}
             </h1>
             <label htmlFor="patientName" className="mb-2 text-lg text-gray-700">
               {question}
@@ -41,14 +58,13 @@ const page = () => {
               <></>
             ) : (
               <>
-                <input
-                  type="text"
+                <textarea
                   placeholder=""
                   id="patientName"
                   name="patientName"
                   value={answer}
                   onChange={(e) => setAnswer(e.target.value)}
-                  className="p-3 text-lg w-80 mb-5 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
+                  className="p-3 text-lg w-full mb-5 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
                 />
                 <button
                   onClick={res}
