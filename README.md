@@ -12,7 +12,7 @@ How can we provide accessible healthcare advice to underprivileged communities w
 
 ## Our Solution
 
-We aim to leverage technology to deliver healthcare advice and support to underprivileged communities in India. By creating a dynamic and interactive platform, we can bridge the gap between patients and healthcare professionals, ensuring timely access to essential healthcare information and services.
+We aim to create a website that will use AI with our custom RAG model to understand the problems of the patient and understand what hes suffering from. Then the AI would generate a concise summary of the patient, that any doctor can quickly review(summaries enable the doctor to accelerate disgnosis of the patient by a factor of 10-20x). then the doctor can approve the summary and write the prescription for the patient, which the patient can then see and buy the medicines. Future scope of this project would also help the patient find them pharmacy nearest to them.
 
 ## Key Features
 
