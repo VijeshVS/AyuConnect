@@ -42,7 +42,7 @@ By implementing this solution, we aim to:
 We invite healthcare professionals, technology experts, and volunteers to join us in this mission. Together, we can make a difference and ensure that everyone, regardless of their socio-economic status, has access to the healthcare they deserve.
 
 ## Team
-- Vineeth Rao - 1RV23CS280
+- Vineeth Rao - 1RV23CS288
 - Sushanth Joshi - 1RV23CS260
 - Vijesh Shetty - 1RV23IS137
 - Yash Saraogi - 1RV23CS297
