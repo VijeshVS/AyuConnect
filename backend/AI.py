@@ -4,6 +4,7 @@ from langchain_chroma import Chroma
 from langchain_core.tools import tool
 import os
 from flask import Flask, request, jsonify
+from flask_cors import CORS  # Import CORS
 import doctorHandle as dh
 
 # Suppress all warnings
@@ -12,6 +13,9 @@ os.environ['TOKENIZERS_PARALLELISM'] = 'true'
 
 model = ChatGroq(model='llama3-8b-8192')
 app = Flask(__name__)
+
+# Enable CORS for the entire app, allowing all origins
+CORS(app)  # This will allow all origins to access your API
 
 # Initial system and AI messages
 messagesVanilla = [
