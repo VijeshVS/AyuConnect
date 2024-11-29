@@ -10,8 +10,11 @@ const page = () => {
   const [done, setDone] = useState(false);
 
   async function res() {
-    const res = await axios.get('https://catfact.ninja/fact')
-    console.log(res)
+    const res = await axios.post('http://localhost:6000/getResponse',{
+      input: question
+    }).then((response)=>{
+      console.log(response.data)
+    })
   }
 
   return (
