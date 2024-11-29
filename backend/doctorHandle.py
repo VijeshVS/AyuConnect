@@ -17,6 +17,7 @@ cursor.execute('''
         medicines TEXT
     )
 ''')
+
 #Patient summary:
 #[patientname, patientsex, patient age, disease predicted 1, disease predicted 2 , disease predicted 3. Symptom list. conversation list]
 #convert array to string by seperating each field by a semicolon and sublist by a ,
@@ -55,8 +56,17 @@ def getPatients():
     cursor = conn.cursor()
     cursor.execute('SELECT * FROM doctors')
     patients = cursor.fetchall()
+    patient_list = []
+    for patient in patients:
+        patient_dict = {
+            'Id': patient[0],
+            'Patient_summary': patient[1],
+            'status': patient[2],
+            'medicines': patient[3]
+        }
+        patient_list.append(patient_dict)
     conn.close()
-    return patients,200
+    return {'patients': patient_list}, 200
 
 @app.route('/addPatient', methods=['POST'])
 def addPatient():
