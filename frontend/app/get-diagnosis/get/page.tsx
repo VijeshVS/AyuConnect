@@ -9,33 +9,9 @@ const page = () => {
   const [answer, setAnswer] = useState("");
   const [done, setDone] = useState(false);
 
-  function res() {
-    setLoading(true);
-    fetch("http://172.18.255.255:6000/getResponse", {
-      method: "POST",
-      headers: {
-        "Content-Type": "application/json",
-      },
-      body: JSON.stringify({ input: answer }),
-    })
-      .then((response) => {
-        if (!response.ok) {
-          throw new Error("Network response was not ok");
-        }
-        return response.json();
-      })
-      .then((data) => {
-        console.log(data);
-        if (data.id) {
-          setDone(true);
-          return;
-        }
-        setQuestion(data.response);
-      })
-      .catch((error) => {
-        console.error("There was a problem with the fetch operation:", error);
-      })
-      .finally(() => setLoading(false));
+  async function res() {
+    const res = await axios.get('https://catfact.ninja/fact')
+    console.log(res)
   }
 
   return (
