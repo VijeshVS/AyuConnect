@@ -11,18 +11,31 @@ const page = () => {
 
   function res() {
     setLoading(true);
-    axios
-      .post("http://localhost:6000/getResponse", {
-        input: answer,
+    fetch("http://172.18.255.255:6000/getResponse", {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({ input: answer }),
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Network response was not ok");
+        }
+        return response.json();
       })
-      .then((res) => {
-        if (res.data.id) {
+      .then((data) => {
+        console.log(data);
+        if (data.id) {
           setDone(true);
           return;
         }
-        const data = res.data.response;
-        setQuestion(data);
-      });
+        setQuestion(data.response);
+      })
+      .catch((error) => {
+        console.error("There was a problem with the fetch operation:", error);
+      })
+      .finally(() => setLoading(false));
   }
 
   return (
