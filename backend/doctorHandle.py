@@ -76,7 +76,25 @@ def addPatient():
     conn.close()
     return {'Id': cursor.lastrowid}, 201
     
-
+@app.route('/updatePatient', methods=['PUT'])
+def updatePatient():
+    data = request.get_json()
+    patient_id = data['Id']
+    status = data['status']
+    medicines = data['medicines']
+    
+    # Reopen the database connection
+    conn = sqlite3.connect('doctorDB.db', check_same_thread=False)
+    cursor = conn.cursor()
+    
+    cursor.execute('''
+    UPDATE doctors
+    SET status = ?, medicines = ?
+    WHERE Id = ?
+    ''', (status, medicines, patient_id))
+    conn.commit()
+    conn.close()
+    return {'message': 'Patient updated successfully'}, 200
 # Commit the changes and close the connection
 conn.commit()
 conn.close()
