@@ -16,7 +16,7 @@ We aim to leverage technology to deliver healthcare advice and support to underp
 
 ## Key Features
 
-- **Mobile Health App**: A user-friendly mobile application that provides healthcare advice, symptom checkers, and connects users with healthcare professionals.
+- **Health Website**: A user-friendly mobile application that provides healthcare advice, symptom checkers, and connects users with healthcare professionals.
 - **Telemedicine Services**: Remote consultations with doctors and healthcare providers to offer medical advice and support.
 - **Community Health Workers**: Training and deploying community health workers to educate and assist local populations with basic healthcare needs.
 - **Health Education**: Providing educational resources and workshops to promote health awareness and preventive care.
@@ -33,3 +33,9 @@ By implementing this solution, we aim to:
 ## Get Involved
 
 We invite healthcare professionals, technology experts, and volunteers to join us in this mission. Together, we can make a difference and ensure that everyone, regardless of their socio-economic status, has access to the healthcare they deserve.
+
+## Team
+- Vineeth Rao - 1RV23CS280
+- Sushanth Joshi - 1RV23CS260
+- Vijesh Shetty - 1RV23IS137
+- Yash Saraogi - 1RV23CS297
