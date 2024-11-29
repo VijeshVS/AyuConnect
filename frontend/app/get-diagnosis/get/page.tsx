@@ -12,7 +12,7 @@ const page = () => {
   function res() {
     setLoading(true);
     axios
-      .post("", {
+      .post("http://localhost:6000/getResponse", {
         input: answer,
       })
       .then((res) => {
