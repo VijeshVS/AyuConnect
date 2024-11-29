@@ -68,10 +68,8 @@ def getPatients():
     conn.close()
     return {'patients': patient_list}, 200
 
-@app.route('/addPatient', methods=['POST'])
-def addPatient():
-    data = request.get_json()
-    patient_summary = data['Patient_summary']
+def addPatient(data:str):
+    patient_summary = data
     
     # Reopen the database connection
     conn = sqlite3.connect('doctorDB.db', check_same_thread=False)
@@ -108,6 +106,5 @@ def updatePatient():
 # Commit the changes and close the connection
 conn.commit()
 conn.close()
-
 if __name__ == '__main__':
     app.run(debug=True)
