@@ -1,45 +1,38 @@
-"use client";
-import React, { useState } from "react";
-import Loading from "../components/Loading";
+"use client"
+import { useRouter } from "next/navigation";
+import React from "react";
 
-const page = () => {
-  const [loading, setLoading] = useState(false);
-
+const GetDiagnosisPage: React.FC = () => {
+  const router = useRouter();
   return (
     <div
-      className="flex flex-col items-center justify-center h-screen"
       style={{
         backgroundImage: 'url("/bg-patient.png")',
         backgroundSize: "cover",
         backgroundPosition: "center",
       }}
+      className="flex flex-col items-center justify-center h-screen"
     >
-      <div className="flex flex-col p-8 bg-white min-w-[300px] min-h-[200px] justify-center shadow-lg rounded-xl">
-        {loading ? (
-          <Loading />
-        ) : (
-          <>
-            <h1 className="mb-5 text-3xl font-bold text-gray-800">
-              Enter Patient Details
-            </h1>
-            <label htmlFor="patientName" className="mb-2 text-lg text-gray-700">
-              What is your name?
-            </label>
-            <input
-              type="text"
-              placeholder="Enter your name..."
-              id="patientName"
-              name="patientName"
-              className="p-3 text-lg w-80 mb-5 border border-gray-300 rounded focus:outline-none focus:ring-2 focus:ring-blue-500"
-            />
-            <button className="px-6 py-3 text-lg bg-blue-600 text-white rounded-full hover:bg-blue-700 transition duration-300">
-              Next
-            </button>
-          </>
-        )}
+      <div className="text-black bg-white flex flex-col p-8 rounded-xl items-center">
+      <div className="text-center mb-10">
+        <h1 className="text-4xl font-semibold mb-4">
+          Welcome to the Health Portal
+        </h1>
+        <p className="text-lg opacity-80">
+          Get accurate diagnosis and manage your health with ease.
+        </p>
+      </div>
+      <div className="space-y-4">
+        <button onClick={()=>router.push('/get-diagnosis/portal')} className="m-2 p-4 text-lg bg-blue-600 text-white rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:bg-blue-700 focus:outline-none focus:ring-2 focus:ring-blue-300">
+          Portal
+        </button>
+        <button onClick={()=>router.push('/get-diagnosis/get')} className="m-2 p-4 text-lg bg-green-600 text-white rounded-lg shadow-lg transform transition-transform hover:scale-105 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-green-300">
+          Get Diagnosis
+        </button>
+      </div>
       </div>
     </div>
   );
 };
 
-export default page;
+export default GetDiagnosisPage;

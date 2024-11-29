@@ -16,31 +16,128 @@ const DoctorDashboard = () => {
 
   const diagnoses = [
     {
-      id: 1,
-      disease: "Hypertension",
-      patientName: "Alice Smith",
-      patientAvatar: "https://via.placeholder.com/50",
-      contact: "+1 987 654 321",
+      patient_name: "John Doe",
+      patient_sex: "Male",
+      patient_age: 45,
+      disease_predicted_1: "Diabetes",
+      disease_predicted_2: "Hypertension",
+      disease_predicted_3: "Asthma",
+      symptom_list: ["Fatigue", "Shortness of breath", "Increased thirst"],
+      conversation_list: [
+        "Discussed high blood sugar levels on 2023-01-15",
+        "Follow-up on medication adherence on 2023-02-10",
+        "Reported symptoms of breathlessness on 2023-03-20",
+      ],
+      medicines: "Metformin, Amlodipine, Salbutamol Inhaler",
     },
     {
-      id: 2,
-      disease: "Diabetes",
-      patientName: "Bob Johnson",
-      patientAvatar: "https://via.placeholder.com/50",
-      contact: "+1 456 789 123",
+      patient_name: "Jane Smith",
+      patient_sex: "Female",
+      patient_age: 38,
+      disease_predicted_1: "Hyperthyroidism",
+      disease_predicted_2: "Anxiety",
+      disease_predicted_3: "Chronic Fatigue Syndrome",
+      symptom_list: ["Rapid heartbeat", "Weight loss", "Anxiety", "Tiredness"],
+      conversation_list: [
+        "Discussed anxiety management on 2023-02-05",
+        "Follow-up on thyroid function tests on 2023-04-11",
+        "Reported persistent fatigue on 2023-06-22",
+      ],
+      medicines: "Methimazole, Sertraline, Vitamin D",
     },
     {
-      id: 3,
-      disease: "Asthma",
-      patientName: "Charlie Brown",
-      patientAvatar: "https://via.placeholder.com/50",
-      contact: "+1 321 654 987",
+      patient_name: "Robert Brown",
+      patient_sex: "Male",
+      patient_age: 60,
+      disease_predicted_1: "COPD",
+      disease_predicted_2: "Arthritis",
+      disease_predicted_3: "Heart Disease",
+      symptom_list: ["Chronic cough", "Joint pain", "Shortness of breath"],
+      conversation_list: [
+        "Discussed smoking cessation on 2023-01-30",
+        "Follow-up on heart health on 2023-04-05",
+        "Reported worsening knee pain on 2023-07-15",
+      ],
+      medicines: "Tiotropium, Ibuprofen, Aspirin",
+    },
+    {
+      patient_name: "Emily Davis",
+      patient_sex: "Female",
+      patient_age: 29,
+      disease_predicted_1: "PCOS",
+      disease_predicted_2: "Migraines",
+      disease_predicted_3: "Anxiety",
+      symptom_list: [
+        "Irregular periods",
+        "Frequent headaches",
+        "Nausea",
+        "Mood swings",
+      ],
+      conversation_list: [
+        "Discussed hormonal imbalance on 2023-03-12",
+        "Follow-up on migraine treatment on 2023-05-15",
+        "Reported increased anxiety on 2023-08-09",
+      ],
+      medicines: "Metformin, Sumatriptan, Clonazepam",
+    },
+    {
+      patient_name: "Michael Johnson",
+      patient_sex: "Male",
+      patient_age: 50,
+      disease_predicted_1: "Type 2 Diabetes",
+      disease_predicted_2: "Hyperlipidemia",
+      disease_predicted_3: "Sleep Apnea",
+      symptom_list: [
+        "Increased hunger",
+        "Frequent urination",
+        "Fatigue",
+        "Snoring",
+      ],
+      conversation_list: [
+        "Discussed lifestyle changes for diabetes on 2023-02-25",
+        "Follow-up on cholesterol levels on 2023-04-20",
+        "Reported sleep disturbances on 2023-06-30",
+      ],
+      medicines: "Glipizide, Atorvastatin, CPAP machine",
+    },
+    {
+      patient_name: "Sarah Lee",
+      patient_sex: "Female",
+      patient_age: 33,
+      disease_predicted_1: "Endometriosis",
+      disease_predicted_2: "Chronic Pelvic Pain",
+      disease_predicted_3: "Anxiety",
+      symptom_list: ["Pelvic pain", "Heavy menstrual bleeding", "Fatigue"],
+      conversation_list: [
+        "Discussed treatment options for endometriosis on 2023-01-10",
+        "Follow-up on pelvic pain management on 2023-03-18",
+        "Reported irregular cycles on 2023-06-22",
+      ],
+      medicines: "Naproxen, Birth control pills, Clonazepam",
+    },
+    {
+      patient_name: "David Clark",
+      patient_sex: "Male",
+      patient_age: 40,
+      disease_predicted_1: "Gout",
+      disease_predicted_2: "Obesity",
+      disease_predicted_3: "Hypertension",
+      symptom_list: [
+        "Joint pain",
+        "Swelling in feet",
+        "Headaches",
+        "Shortness of breath",
+      ],
+      conversation_list: [
+        "Discussed weight management on 2023-02-01",
+        "Follow-up on gout flare-ups on 2023-03-30",
+        "Reported worsening headaches on 2023-05-18",
+      ],
+      medicines: "Allopurinol, Lisinopril, Furosemide",
     },
   ];
 
-  function generateDiagnosis() {
-    
-  }
+  function generateDiagnosis() {}
 
   // Function to handle button click
   const handleGenerateDiagnosis = (diagnosis: any) => {
@@ -63,10 +160,17 @@ const DoctorDashboard = () => {
     setLoading(false);
   }, []);
 
-  if(loading) return <Loading/>
+  if (loading) return <Loading />;
 
   return (
-    <div className="min-h-screen bg-gray-100 p-6">
+    <div
+      style={{
+        backgroundImage: 'url("/bg-doctor.png")',
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+      className="min-h-screen bg-gray-100 py-12 px-24"
+    >
       {/* Doctor Profile */}
       <div className="bg-white p-6 rounded-lg shadow-lg mb-6">
         <div className="flex items-center space-x-4">
@@ -88,29 +192,31 @@ const DoctorDashboard = () => {
       <div className="bg-white p-6 rounded-lg shadow-lg">
         <h2 className="text-xl font-semibold mb-4">Diagnoses</h2>
         <div className="space-y-4">
-          {diagnoses.map((diagnosis) => (
+          {diagnoses.map((diagnosis, index) => (
             <div
-              key={diagnosis.id}
+              key={diagnosis.patient_name}
               className="flex items-center p-4 bg-gray-50 rounded-lg shadow-sm"
             >
               <img
                 src="https://cdn-icons-png.flaticon.com/512/1430/1430453.png"
-                alt={diagnosis.patientName}
+                alt={diagnosis.patient_name}
                 className="w-12 h-12 rounded-full mr-4"
               />
               <div className="flex-grow">
-                <h3 className="text-lg font-semibold">{diagnosis.disease}</h3>
-                <p className="text-gray-600">{diagnosis.patientName}</p>
+                <h3 className="text-lg font-semibold">
+                  {diagnosis.disease_predicted_1}
+                </h3>
+                <p className="text-gray-600">{diagnosis.patient_name}</p>
               </div>
               <div className="flex items-center space-x-4">
-                <a
-                  href={`tel:${diagnosis.contact}`}
-                  className="text-blue-500 font-medium"
-                >
-                  {diagnosis.contact}
-                </a>
                 <button
-                  onClick={() => handleGenerateDiagnosis(diagnosis)}
+                  onClick={() => {
+                    localStorage.setItem(
+                      "patient",
+                      JSON.stringify(diagnoses[index])
+                    );
+                    router.push("/give-diagnosis/generate");
+                  }}
                   className="px-4 py-2 bg-blue-500 text-white rounded-lg hover:bg-blue-600"
                 >
                   Generate Diagnosis

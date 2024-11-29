@@ -125,28 +125,6 @@ const PatientInfoComponent: React.FC = () => {
             ))}
           </ul>
         </div>
-        <div className="flex space-x-2 justify-center py-6">
-          <input
-            type="text"
-            placeholder="Enter your medicine"
-            className="border border-gray-300 p-2 rounded-md w-1/2"
-            value={medicines}
-            onChange={(e) => setMedicines(e.target.value)}
-          />
-          <button
-            onClick={() =>
-              setList((prev) => {
-                const pr = [...prev];
-                pr.push(medicines);
-                setMedicines("");
-                return pr;
-              })
-            }
-            className="bg-blue-500 text-white px-4 py-2 rounded-md hover:bg-blue-600"
-          >
-            Add Medicine
-          </button>
-        </div>
         {/* Medicines */}
         <div className="bg-white p-4 rounded-md shadow-sm">
           <h2 className="text-lg font-semibold text-gray-700 mb-2">
@@ -156,12 +134,9 @@ const PatientInfoComponent: React.FC = () => {
         </div>
         <div className="bg-white mt-8 p-4 rounded-xl shadow-sm mb-6">
           <h2 className="text-lg font-semibold text-gray-700 mb-2">Remarks</h2>
-          <textarea className="border p-2 border-gray-300 h-[100px] rounded-md w-full" />
+          
         </div>
         <div className="flex justify-center mt-4">
-          <button className="bg-green-500 text-white px-4 py-2 rounded-md hover:bg-green-600">
-            Generate Diagnosis
-          </button>
         </div>
       </div>
     </div>
