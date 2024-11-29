@@ -12,14 +12,21 @@ How can we provide accessible healthcare advice to underprivileged communities w
 
 ## Our Solution
 
-We aim to leverage technology to deliver healthcare advice and support to underprivileged communities in India. By utilizing mobile applications, telemedicine, and community health workers, we can ensure that even the most remote areas have access to essential healthcare information and services.
+We aim to leverage technology to deliver healthcare advice and support to underprivileged communities in India. By creating a dynamic and interactive platform, we can bridge the gap between patients and healthcare professionals, ensuring timely access to essential healthcare information and services.
 
 ## Key Features
 
-- **Health Website**: A user-friendly mobile application that provides healthcare advice, symptom checkers, and connects users with healthcare professionals.
-- **Telemedicine Services**: Remote consultations with doctors and healthcare providers to offer medical advice and support.
-- **Community Health Workers**: Training and deploying community health workers to educate and assist local populations with basic healthcare needs.
-- **Health Education**: Providing educational resources and workshops to promote health awareness and preventive care.
+- **Dynamic Health Website**:  
+  A responsive and interactive website that asks users a series of health-related questions. Based on their responses, the system:  
+  - Generates a summary of their problems.  
+  - Identifies three probable issues.  
+  - Sends the information to the doctor via the portal.
+
+- **Doctor Portal Integration**:  
+  Doctors can review the summaries and probable issues, provide a probable diagnosis, and suggest medicines or further guidelines as needed.
+
+- **Telemedicine Services**:  
+  Enabling remote consultations to offer personalized medical advice and support.
 
 ## Impact
 
