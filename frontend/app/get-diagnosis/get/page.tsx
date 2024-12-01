@@ -1,7 +1,7 @@
 "use client";
 import Loading from "@/app/components/Loading";
-import React, { useState } from "react";
-import { converseWithAI } from "@/app/actions/getResponse";
+import React, { useEffect, useState } from "react";
+import { clearContext, converseWithAI } from "@/app/actions/getResponse";
 
 const page = () => {
   const [loading, setLoading] = useState(false);
@@ -9,24 +9,20 @@ const page = () => {
   const [answer, setAnswer] = useState("");
   const [done, setDone] = useState(false);
 
+  async function clr() {
+    await clearContext();
+  }
+
+  useEffect(() => {
+    clr();
+  }, []);
+
   async function res() {
     setLoading(true);
     converseWithAI(answer).then((res) => {
       const word = res?.split(" ")[0];
       if (word == "SUMMARY:" || word == "SUMMARY") {
-        console.log(res)
-        if (!localStorage.getItem("dii")) {
-          const arr = [];
-          arr.push(res);
-          localStorage.setItem("dii", JSON.stringify(arr));
-        } else {
-          const arr = JSON.parse(localStorage.getItem("dii") || "");
-          arr.push(res);
-          localStorage.setItem("dii", JSON.stringify(arr));
-        }
         setDone(true);
-        setLoading(false);
-        return;
       }
       setQuestion(res as string);
       setLoading(false);
@@ -36,7 +32,7 @@ const page = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center h-screen px-48"
+      className="flex flex-col items-center justify-center h-screen px-72"
       style={{
         backgroundImage: 'url("/bg-patient.png")',
         backgroundSize: "cover",
