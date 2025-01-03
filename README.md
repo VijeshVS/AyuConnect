@@ -63,11 +63,6 @@ Efficiently diagnose a large number of patients using AI to:
    - Provides patients with clear and actionable insights.
    - Facilitates easy access to medical records and prescriptions.
 
-## Achievements
-Winning the **GenAI Hackathon** demonstrates the potential of our platform to:
-- Address real-world problems with innovative AI solutions.
-- Enhance efficiency in healthcare diagnostics.
-
 ## Future Scope
 - Expand the AI's database for broader diagnostic capabilities.
 - Integrate with electronic health records (EHR) systems.
