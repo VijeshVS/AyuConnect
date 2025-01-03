@@ -1,7 +1,7 @@
 # GenAI Hackathon Winning Project - AI-Assisted Diagnosis Platform
 
 ## Overview
-We are excited to share that our team, **Alchemits**, won the **GenAI Hackathon** conducted by the **RVCE ACM Student Chapter** and **ACCELERATE RVCE**! 🎉
+Won the **GenAI Hackathon** conducted by the **RVCE ACM Student Chapter** and **ACCELERATE RVCE**! 🎉
 
 The hackathon challenged us to build a solution for a problem statement within just 3 hours. We chose a problem focused on assisting doctors in diagnosing a large number of patients efficiently using AI. Our solution integrates AI-driven initial diagnosis with doctor verification for a seamless and effective process.
 
