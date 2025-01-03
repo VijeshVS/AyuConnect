@@ -1,48 +1,74 @@
-# Ayu Connect
+# GenAI Hackathon Winning Project - AI-Assisted Diagnosis Platform
 
-“Health is the greatest gift, contentment the greatest wealth, faithfulness the best relationship.” – Buddha
+## Overview
+We are excited to share that our team, **Alchemits**, won the **GenAI Hackathon** conducted by the **RVCE ACM Student Chapter** and **ACCELERATE RVCE**! 🎉
 
-## Introduction
-
-In a country as diverse and populous as India, access to healthcare remains a significant challenge, especially for underprivileged communities. These communities often face barriers such as limited access to doctors, lack of healthcare facilities, and financial constraints. Our mission is to bridge this gap by providing accessible healthcare advice to those who need it the most.
+The hackathon challenged us to build a solution for a problem statement within just 3 hours. We chose a problem focused on assisting doctors in diagnosing a large number of patients efficiently using AI. Our solution integrates AI-driven initial diagnosis with doctor verification for a seamless and effective process.
 
 ## Problem Statement
+Efficiently diagnose a large number of patients using AI to:
+- Reduce workload for doctors.
+- Provide patients with faster access to medical insights.
+- Maintain accuracy and reliability in medical diagnoses.
 
-How can we provide accessible healthcare advice to underprivileged communities with limited access to doctors?
+## Solution
+### Platform Features:
+1. **AI-Powered Patient Interaction**
+   - Patients interact with an AI for an initial diagnosis.
+   - The AI follows a structured process, asking detailed and specific questions about symptoms.
+   - Generates a detailed diagnostic report.
 
-## Our Solution
+2. **Doctor Verification**
+   - Doctors review patient reports, including:
+     - Personal information.
+     - AI-patient conversation.
+     - Top predicted diseases.
+   - Doctors can:
+     - Accept or reject the diagnosis.
+     - Provide prescriptions.
+     - Add remarks.
 
-We aim to create a website that will use AI with our custom RAG model to understand the problems of the patient and understand what hes suffering from. Then the AI would generate a concise summary of the patient, that any doctor can quickly review(summaries enable the doctor to accelerate disgnosis of the patient by a factor of 10-20x). then the doctor can approve the summary and write the prescription for the patient, which the patient can then see and buy the medicines. Future scope of this project would also help the patient find them pharmacy nearest to them. Like this we can connect doctors anywhere in the country to help people in need of help
+3. **Patient Portal**
+   - Patients can view:
+     - Diagnosis details.
+     - Prescriptions.
 
-## Key Features
+## Tech Stack
+- **Frontend**: Next.js
+- **AI Integration**: Groq
 
-- **Dynamic Health Website**:  
-  A responsive and interactive website that asks users a series of health-related questions. Based on their responses, the system:  
-  - Generates a summary of their problems.  
-  - Identifies three probable issues.  
-  - Sends the information to the doctor via the portal.
+## Usage
+1. **Patient Workflow**:
+   - Log in to the platform.
+   - Answer the AI's questions about symptoms.
+   - Receive a detailed AI-generated report.
+2. **Doctor Workflow**:
+   - Log in to the platform.
+   - Review patient reports.
+   - Accept or reject the diagnosis, provide prescriptions, and add remarks.
+3. **Patient Access**:
+   - View verified diagnosis and prescriptions through the portal.
 
-- **Doctor Portal Integration**:  
-  Doctors can review the summaries and probable issues, provide a probable diagnosis, and suggest medicines or further guidelines as needed.
+## How It Works
+1. **AI Diagnosis**:
+   - Leverages Groq to process patient inputs.
+   - Uses a structured question-and-answer process.
+   - Predicts potential diseases and generates a detailed report.
 
-- **Telemedicine Services**:  
-  Enabling remote consultations to offer personalized medical advice and support.
+2. **Doctor Review**:
+   - Ensures AI suggestions are validated by medical professionals.
+   - Maintains accountability and reliability in the diagnosis process.
 
-## Impact
+3. **Patient Transparency**:
+   - Provides patients with clear and actionable insights.
+   - Facilitates easy access to medical records and prescriptions.
 
-By implementing this solution, we aim to:
+## Achievements
+Winning the **GenAI Hackathon** demonstrates the potential of our platform to:
+- Address real-world problems with innovative AI solutions.
+- Enhance efficiency in healthcare diagnostics.
 
-- Improve access to healthcare for underprivileged communities.
-- Reduce the burden on overworked healthcare facilities.
-- Promote preventive care and health education.
-- Empower communities with the knowledge and resources to take control of their health.
-
-## Get Involved
-
-We invite healthcare professionals, technology experts, and volunteers to join us in this mission. Together, we can make a difference and ensure that everyone, regardless of their socio-economic status, has access to the healthcare they deserve.
-
-## Team
-- Vineeth Rao - 1RV23CS288
-- Sushanth Joshi - 1RV23CS260
-- Vijesh Shetty - 1RV23IS137
-- Yash Saraogi - 1RV23CS297
+## Future Scope
+- Expand the AI's database for broader diagnostic capabilities.
+- Integrate with electronic health records (EHR) systems.
+- Add multi-language support for greater accessibility.
